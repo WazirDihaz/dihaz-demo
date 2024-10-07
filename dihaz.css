@@ -1,0 +1,207 @@
+.por
+{
+    
+    background-color:aqua;
+    
+    height:222px;
+}
+*
+{
+    margin:0px;
+    padding:0px;
+}
+#navbar
+{
+    height:75px;
+    background-color:rgb(10, 10, 109);
+    position:fixed;
+z-index: 1;
+    width:99.8%;
+}
+#navbar ul
+{
+    display:flex;
+    justify-content: end;
+     margin-top:27px;
+}
+
+
+#navbar li{
+    padding-left:23px;
+    padding-right:23px;
+    list-style: none;
+}
+#navbar ul li a
+{
+    font-weight:900;
+    font-size: x-large;
+    padding:12px;
+    text-decoration: none;
+    color:whitesmoke;
+   
+}
+#navbar ul li a:hover
+{
+    background-color:rgb(199, 167, 167);
+    color:black;
+}
+#welcome-section
+{
+   position:relative;
+   top:77px;
+   height:568px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   background-color: black;
+}
+#fal
+{
+    position:relative;
+    bottom:53px;
+    left:190px;
+}
+#wel
+{
+    font-size:70px;
+    font-weight: bolder;
+    color:azure;
+    
+   
+}
+
+#welp
+{
+    color:rgb(20, 231, 231);
+    position:relative;
+    right:160px;
+    font-size: x-large;
+}
+#projects
+{
+    
+    height:1150px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(39, 58, 27);
+    margin-top:65px;
+    padding-bottom:100px;
+}
+#img1
+{
+    width:30%;
+    height:400px;
+
+}
+#HPRO
+{
+    text-align: center;
+   POSITION:relative;
+   TOP:56PX;
+   LEFT:282PX;
+   font-weight: bolder;
+   color:aliceblue;
+   font-size: xx-large;
+}
+.same
+{ 
+    position:relative;
+    top:75px;
+    height:45%;
+    width:98%;
+    margin:12px;
+    
+display:flex;
+
+}
+.up
+{
+    width:30%;
+    height:98%;
+   
+    margin:6px;
+
+    margin-right:42px ;
+}
+
+.fi
+{
+    width:30%;
+    height:98%;
+   
+    margin:6px;
+    margin-right:42px ;
+   
+}
+img{
+    background-size: contain;
+    width:90%;
+    height:80%;
+    margin-left:23px;
+
+}
+h3
+{
+    padding-left:12px;
+}
+.TITLE
+{
+    MARGIN-TOP:23PX;
+    text-align: center;
+    background-color: black;
+    color:blue;
+    font-size: x-large;
+    padding-top:12px;
+    padding-bottom: 12px;
+
+}
+.img1
+{
+    width:70px;
+    height:40px;
+    margin:32px;
+    margin-right: 160px;
+    
+}
+
+#hf
+{
+    text-align: center;
+    MARGIN-LEFT:78PX;
+    font-weight: bold;
+    COLOR:azure;
+}
+#PP
+{
+    text-align: center;
+    font-weight: bold;
+    COLOR:azure;
+    font-size: large;
+    
+}
+#myfooter
+{
+    background-color: black;
+    padding-bottom: 180px;
+    padding-top: 165px;
+}
+#df
+{
+    margin-top:45px;
+    margin-bottom: 45px;;
+}
+
+@media screen and(min-width:800px)
+{
+  
+   #navbar
+   {
+    text-align:center;
+    background-color: black;
+   }
+}
+
+@media screen and() {
+
+    
+}
